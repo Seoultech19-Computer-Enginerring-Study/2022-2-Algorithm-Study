@@ -4,6 +4,7 @@
 - [엄유상](https://github.com/eomyoosang)
 - [노다빈](https://github.com/nodb)
 - [유혁진](https://github.com/yhj0329)
+- [김준재](htps://github.com/)
 
 ## 스터디 방식
 - 날짜 및 시간  
@@ -28,6 +29,7 @@
 
 |이름|평균 난이도|
 |--|-----|
+|김준재|실버 5|
 |노다빈|실버 3|
 |유혁진|실버 3|
 |엄유상|실버 1|
@@ -35,4 +37,10 @@
 ## 스터디 기록
 |날짜|참여자|진도|비고|
 |--|---|--|--|
-|2022-08-04|엄유상, 노다빈, 유혁진| |
+|2022-08-04|엄유상, 노다빈, 유혁진|스터디 시작| |
+|2022-08-08| |0x00강~0x04강|오리엔테이션~배열/연결리스트| |
+
+
+## 링크
+- [바킹독](https://blog.encrypted.gg/category/%EA%B0%95%EC%A2%8C/%EC%8B%A4%EC%A0%84%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98?page=2)
+- [바킹독 백준](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook.md)
