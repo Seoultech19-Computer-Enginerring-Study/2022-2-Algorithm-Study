@@ -4,25 +4,28 @@ using namespace std;
 int dx[4] = {1, 0, -1, 0};
 int dy[4] = {0, 1, 0, -1};
 
-int n, l, k;
+int n, k, l;
 // int snake[101][101];
 deque<pair<int, int>> snake;
 int board[101][101];
-int curve[101][101];
 int apple[101][101];
 
 int main() {
   ios_base::sync_with_stdio(0);
   cin.tie(0);
+
   cin >> n;
   cin >> k;
+  // 사과 위치 표시
   for (int i = 0; i < k; i++) {
     int x, y;
     cin >> x >> y;
     apple[x][y] = 1;
   }
+
   cin >> l;
   vector<pair<int, char>> v;
+
   for(int i=0;i<l;i++){
     int s;
     char c;
@@ -44,17 +47,18 @@ int main() {
         cout<<sec;
         break;
     }
+    // 자기 몸에 부딪히는지 확인
+    if (board[x][y] == 1) {
+      cout << sec;
+      break;
+    }
     // 사과 확인
     if(!apple[x][y]) {    // 사과가 없으면 꼬리를 지움
         auto a = snake.back();
         board[a.first][a.second] = 0;
         snake.pop_back();
     }
-    // 자기 몸에 부딪히는지 확인
-    if(board[x][y] == 1) {
-        cout<<sec;
-        break;
-    }
+    
     // 머리 추가
     snake.push_front({x, y});
     board[x][y] = 1;
@@ -71,6 +75,7 @@ int main() {
                 dir++;
                 dir%=4;
             }
+            break;
         }
     }
     sec++;
