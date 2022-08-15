@@ -41,6 +41,13 @@
 |2022-08-08|엄유상, 노다빈, 유혁진|0x00강~0x04강|오리엔테이션~배열/연결리스트| |
 |2022-08-11|엄유상, 노다빈, 유혁진|0x05강~0x08강|스택, 큐, 덱, 스택의 활용|
 
+## 스터디 정리
+|회차|유상|다빈|혁진|
+|--|---|--|--|
+|1회차| | | |
+|2회차| | | |
+|3회차| | | |
+
 ## 링크
 - [바킹독](https://blog.encrypted.gg/category/%EA%B0%95%EC%A2%8C/%EC%8B%A4%EC%A0%84%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98?page=2)
 - [바킹독 백준](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook.md)
