@@ -12,8 +12,10 @@ void func(int k){
         }
         return;
     }
-    for(int i = 1; i <= n; i++){
-        if(!isused[i] || arr[k] < arr[k+1]){
+    int st = 1;
+    if(k != 0) st = arr[k-1] + 1;
+    for(int i = st; i <= n; i++){
+        if(!isused[i]){
             arr[k] = i;
             isused[i] = 1;
             func(k+1);
