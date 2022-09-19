@@ -14,9 +14,9 @@ int main() {
         int k, e, m;
         string name;
         cin>>name>>k>>e>>m;
+
         v.push_back({-k, e, -m, name});
     }
-    sort(v.begin(), v.end());
 
     for(auto &a: v){
         cout<<get<3>(a)<<'\n';
