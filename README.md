@@ -5,7 +5,7 @@
 ## 스터디원
 - [엄유상](https://github.com/eomyoosang)
 - [노다빈](https://github.com/nodb)
-- [유혁진](https://github.com/yhj0329)
+- [유혁진](https://github.com/wlrnfyd0329)
 
 ## 스터디 방식
 - 날짜 및 시간  
